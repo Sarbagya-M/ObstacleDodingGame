@@ -173,7 +173,7 @@ int main()
 				++score;
 				if(score%3==0)
 				speed++;
-				//printf("____________\n");
+				
 			}
 		}
 		//Obstacles hasn't reach car
@@ -187,7 +187,7 @@ int main()
 		
 		
 	
-		//printf("%d,%d,%d,%d\n",carLane, randomLane, yPosObs,score);
+		
 		settextstyle(3, 0, 3);
 		sprintf(scoreCh,"High Score : %d",highScore);
         outtextxy(80,430,scoreCh);
